@@ -16,7 +16,7 @@ body, section {
     width: 100vw;
     height: 100vh;
     cursor: pointer;
-    background-color: white;
+    background-color: black;
 }
 
 .main {
@@ -35,7 +35,7 @@ body, section {
 }
 
 h3, hr, p, ul {
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(0,0,0,.1);
 }
 
 h3{
@@ -46,11 +46,11 @@ h3{
 #name {
     font-family: 'Quicksand', sans-serif;
     font-size: 8vw;
-    color: black;
+    color: white;
 }
 
 a {
-    color: black !important;
+    color: white !important;
 }
 
 
@@ -62,7 +62,7 @@ p {
     padding-top: 20px;
     font-size: 20px;
     font-family: Avenir Next;
-    color: black;
+    color: white;
     margin:0px;
 }
 

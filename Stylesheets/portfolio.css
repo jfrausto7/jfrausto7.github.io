@@ -9,7 +9,7 @@ body{
 }
 
 #name {
-    color: rgba(1,1,1,0.8);
+    color: white;
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -37,16 +37,16 @@ p .no-bottom {
 }
 
 .header-title {
-    color: white;
+    color: black;
     font-size: 50px;
 }
 
 .header-subtitle {
-    color: whitesmoke;
+    color: black;
 }
 
 #header-line {
-    background-color: white;
+    background-color: black;
     height: 1px;
     margin: 10px 0px 25px 0px;
 }

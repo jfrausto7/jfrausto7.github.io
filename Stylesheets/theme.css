@@ -492,7 +492,7 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #343a40;
+    color: #fff;
 }
 
 h1,
@@ -800,6 +800,7 @@ pre code
 {
     padding-right: 0;
     padding-left: 0;
+	color: black;
 }
 
 .col-1,
@@ -4939,6 +4940,7 @@ input[type='button'].btn-block
 .nav-tabs .nav-item
 {
     margin-bottom: -.0625rem;
+	color:
 }
 .nav-tabs .nav-link
 {
@@ -4962,7 +4964,7 @@ input[type='button'].btn-block
 {
     color: #495057;
     border-color: #dee2e6 #dee2e6 #fff; 
-    background-color: #fff;
+    background-color: #000;
 }
 .nav-tabs .dropdown-menu
 {
@@ -4980,7 +4982,7 @@ input[type='button'].btn-block
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link
 {
-    color: #fff;
+    color: #000;
     background-color: #32cd32;
 }
 
@@ -5409,17 +5411,17 @@ input[type='button'].btn-block
 
 .navbar-dark .navbar-brand
 {
-    color: #fff;
+    color: #000;
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus
 {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-dark .navbar-nav .nav-link
 {
-    color: rgba(1, 1, 1, .8);
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus
@@ -5456,12 +5458,12 @@ input[type='button'].btn-block
 }
 .navbar-dark .navbar-text a
 {
-    color: #fff;
+    color: #000;
 }
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus
 {
-    color: #fff;
+    color: #000;
 }
 
 .card
@@ -5477,7 +5479,7 @@ input[type='button'].btn-block
 
     border: .0625rem solid rgba(0, 0, 0, .08);
     border-radius: .25rem; 
-    background-color: #fff;
+    background-color: #000;
     background-clip: border-box;
 }
 .card > hr
@@ -7696,7 +7698,7 @@ button.bg-dark:focus
 
 .bg-white
 {
-    background-color: #fff !important;
+    background-color: #000 !important;
 }
 
 a.bg-white:hover,
@@ -7704,7 +7706,7 @@ a.bg-white:focus,
 button.bg-white:hover,
 button.bg-white:focus
 {
-    background-color: #e6e6e6 !important;
+    background-color: #000 !important;
 }
 
 .bg-darker
@@ -7722,7 +7724,7 @@ button.bg-darker:focus
 
 .bg-white
 {
-    background-color: #000000 !important;
+    background-color: #000 !important;
 }
 
 .bg-transparent
@@ -12210,7 +12212,7 @@ body
 
     overflow-x: hidden; 
 
-    color: #495057;
+    color: #fff;
     background-color: #fff;
 }
 
@@ -12572,7 +12574,7 @@ button.bg-cyan:focus
 
 .bg-white
 {
-    background-color: #fff !important;
+    background-color: #000 !important;
 }
 
 a.bg-white:hover,
@@ -12580,7 +12582,7 @@ a.bg-white:focus,
 button.bg-white:hover,
 button.bg-white:focus
 {
-    background-color: #e6e6e6 !important;
+    background-color: #000 !important;
 }
 
 .bg-gray
