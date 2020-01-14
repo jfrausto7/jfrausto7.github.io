@@ -35,7 +35,7 @@ body, section {
 }
 
 h3, hr, p, ul {
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.1);
 }
 
 h3{
