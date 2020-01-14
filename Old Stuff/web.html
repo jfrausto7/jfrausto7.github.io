@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Webpixels">
+    <title>Jacob Frausto - Portfolio</title>
+    <!-- Favicon -->
+    <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <!-- Page plugins -->
+    <link type="text/css" href="./Stylesheets/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="./Stylesheets/atom-one-dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Theme CSS -->
+    <link type="text/css" href="./Stylesheets/theme.css" rel="stylesheet">
+    <link type="text/css" href="./Stylesheets/home.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-xyMU7RufUdPGVOZRrc2z2nRWVWBONzqa0NFctWglHmt5q5ukL22+lvHAqhqsIm3h" crossorigin="anonymous">
+</head>
+
+<header>
+    <div class="bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-transparent navbar-light py-3" id="navbar_main"
+                 style="padding: 0px;">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbar_main_collapse"
+                            aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar_main_collapse">
+                        <ul class="navbar-nav align-items-lg-center ml-sm-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./experience.html">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./resume.html">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<body>
+<main>
+    <div id="bg">
+        <div id="c"></div>
+    </div>
+    <section class="slice slice-xl bg-transparent">
+        <div class="container">
+            <div class="col-md-10 offset-md-1 text-center">
+                <h3 id="name" class="header-subtitle">
+                    <strong>Jacob Frausto</strong>
+                </h3>
+                <hr id="header-line">
+                <p> Welcome! My name is Jacob Frausto and I'm a student at Brown University studying Computer Science, and I'm incredibly interested in AI and Data Science. When I'm not coding, you can usually find me either bowling or playing video games! Click any of the links below to see more of my work and learn more about me!</p>
+                <ul class="actions">
+                    <li><a href="https://github.com/jfrausto7"><i class="fab fa-2x fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jacob-frausto-a33b7918a/"><i class="fab fa-2x fa-linkedin-in"></i></a>
+                    </li>
+                    <!-- <li><a href="https://www.devpost.com/thecurryman"><i class="fab fa-2x fa-dochub"></i></a></li> -->
+                    <li><a href="mailto:jacob_frausto@brown.edu"><i class="fas fa-2x fa-envelope"></i></a></li>
+                    <li><a href="./resume.html"><i class="fas fa-2x fa-file-pdf"></i></a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="./Scripts/particles.js"></script>
+<script>
+    particlesJS("c", {
+        "particles": {
+            "number": {
+                "value": 200,
+                "density": {
+                    "enable": true,
+                    "value_area": 1500
+                }
+            },
+            "color": {
+                "value": "#0191FE"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 1,
+                    "color": "white"
+                },
+            },
+            "opacity": {
+                "value": 1.0,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 100,
+                    "opacity_min": 0.5,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 10,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 10,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": false,
+                "distance": 150,
+                "color": "#0191FE",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 4,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": true,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+<!-- Core -->
+<script src="./Scripts/jquery.min.js"></script>
+<script src="./Scripts/popper.min.js"></script>
+<script src="./Scripts/bootstrap.min.js"></script>
+
+<!-- FontAwesome 5 -->
+<script src="./Scripts/fontawesome-all.min.js" defer></script>
+<!-- Page plugins -->
+<script src="./Scripts/highlight.min.js"></script>
+<!-- Theme JS -->
+<script src="./Scripts/theme.min.js"></script>
+
+</body>
+
+</html>
+
