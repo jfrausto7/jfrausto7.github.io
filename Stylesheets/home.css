@@ -1,0 +1,80 @@
+
+body, section {
+    height: 100%;
+    background-color: white;
+
+}
+
+#bg {
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+#c {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    background-color: white;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#main-content {
+    background-color: white;
+}
+
+h3, hr, p, ul {
+    background-color: rgba(255,255,255,.8);
+}
+
+h3{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#name {
+    font-family: Marck Script;
+    font-size: 9vw;
+    color: black;
+}
+
+a {
+    color: black !important;
+}
+
+
+hr {
+    margin: 0px;
+}
+
+p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Avenir Next;
+    color: black;
+    margin:0px;
+}
+
+ul {
+    padding-top: 20px;
+}
+
+.actions li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 15px;
+    font-size: 1.2em;
+    color: rgba(0,0,0,.5);
+}
+

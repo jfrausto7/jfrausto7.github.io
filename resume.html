@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Webpixels">
+    <title>Jacob Frausto - Resume</title>
+    <!-- Favicon -->
+    <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <!-- Page plugins -->
+    <link type="text/css" href="./Stylesheets/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="./Stylesheets/atom-one-dark.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Theme CSS -->
+    <link type="text/css" href="./Stylesheets/theme.css" rel="stylesheet">
+    <link type="text/css" href="./Stylesheets/portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <div class="bg-white">
+        <div class="container">
+            <div class="col-md-10 offset-md-1" style="padding: 0px;">
+                <nav class="navbar navbar-expand-sm navbar-dark py-3" id="navbar_main" style="padding: 0px;">
+                    <div class="container">
+                        <a class="navbar-brand" id="name" href="./web.html"><strong>Jacob Frausto</strong></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbar_main_collapse"
+                                aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar_main_collapse">
+                            <ul class="navbar-nav align-items-lg-center ml-sm-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link header-link" href="./experience.html">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-link" href="./portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link header-link" href="./resume.html">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="slice" id="projects">
+        <div class="container">
+            <div class="col-md-10 offset-md-1 align-items-center">
+                <h1 class="header-title"> Resume </h1>
+                <h3 class="header-subtitle">
+                    <small> My experience and skills condensed to one page</small>
+                </h3>
+                <hr id="header-line">
+<object>
+                  <iframe id="resume" src="./Images/JFresume_updated.pdf"
+  width="860" height="1110" frameboder="1" style="border: 5px white solid;" seamless></iframe>
+</object>
+              <a id="resumeButton" class="btn btn-dark" target="_blank" href="https://drive.google.com/file/d/1CAbGR-hKp7KozmS7qqT5L0ccWOx2Gey2/view?usp=sharing">View Resume</a>
+
+            </div>
+        </div>
+</main>
+<!-- Core -->
+<script src="./Scripts/jquery.min.js"></script>
+<script src="./Scripts/popper.min.js"></script>
+<script src="./Scripts/bootstrap.min.js"></script>
+<!-- FontAwesome 5 -->
+<script src="./Scripts/fontawesome-all.min.js" defer></script>
+<!-- Page plugins -->
+<script src="./Scripts/highlight.min.js"></script>
+<!-- Theme JS -->
+<script src="./Scripts/theme.min.js"></script>
+
+<script>
+    var resume = document.getElementById("resume");
+    var resumeButton = document.getElementById("resumeButton");
+    displayResume();
+    window.addEventListener("resize", function () {
+        displayResume();
+    });
+    function displayResume() {
+        if (window.matchMedia("(min-width: 1000px)").matches) {
+            resume.style.display = "block";
+            resumeButton.style.display = "none";
+        } else {
+            resume.style.display = "none";
+            resumeButton.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+
+</html>
+
