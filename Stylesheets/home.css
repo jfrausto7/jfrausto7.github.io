@@ -5,6 +5,12 @@ body, section {
 
 }
 
+.header-link {
+    color: rgba(1,1,1,.8);
+    font-family: Avenir;
+    font-size: 20px;
+}
+
 #bg {
     position: absolute;
     overflow: hidden;
@@ -50,7 +56,7 @@ h3{
 }
 
 a {
-    color: black !important;
+    color: black;
 }
 
 
