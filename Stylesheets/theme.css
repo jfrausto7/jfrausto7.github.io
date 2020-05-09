@@ -5043,6 +5043,8 @@ input[type='button'].btn-block
     padding-bottom: .05078rem;
 
     white-space: nowrap;
+
+    transition: color .35s ease, border-color .35s ease;
 }
 .navbar-brand:hover,
 .navbar-brand:focus
@@ -5409,12 +5411,12 @@ input[type='button'].btn-block
 
 .navbar-dark .navbar-brand
 {
-    color: #fff;
+    color: rgba(1,1,1,0.8);
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus
 {
-    color: #fff;
+    color: #32cd32;
 }
 
 .navbar-dark .navbar-nav .nav-link
