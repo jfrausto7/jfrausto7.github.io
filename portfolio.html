@@ -78,25 +78,20 @@
                                 <div class="d-inline-block align-items-start">
                                     <div class="d-inline-flex align-items-start">
                                         <img class="project-icon"
-                                             src="./Images/simclr.jpeg" alt="Card image cap"
+                                             src="./Images/bezier.png" alt="Card image cap"
                                              class="img-center">
-                                        <h4 style="margin-top: 10px;">Contrastive Self-Supervised Image Classification with SimCLR<br>
-                                            <small>CSCI 1470</small>
+                                        <h4 style="margin-top: 10px;">genClassBezier2D<br>
+                                            <small>Personal Project</small>
                                         </h4>
                                     </div>
-                                    <p class="no-bottom"><i>Training an image classifier without using labels by building a model that can generate labels needed for training from the images themselves!</i></p>
+                                    <p class="no-bottom"><i>A short "starter project" with the goal of generating a small 2D image dataset of abstract shapes (formed using Bezier curves) and then training a model to classify them.</i></p>
                                     <hr class="project-line">
-                                    <p class="card-text">Implemented a contrastive self-supervision model to learn image representations from unlabelled data and investigate its performance for an image classification downstream task. The overall outlined learning framework is semi-supervised and trained in two stages. First we implemented simCLR to extract image feature representations without using labels. Then, we used a labeled dataset to train a classifier on top of our learned feature backbone for the classification task.</p>
+                                    <p class="card-text">Recognizing shapes is an essential task in computer vision. An amalgamation of differ- ent application areas rely heavily on shape recognition, including robotics, healthcare, security systems, and assistance for the impaired.
+My goal with this project is to first provide a procedure for generating a few datasets of abstract 2D shapes (formed using Bezier curves). I then prepare the architecture for a simple convolutional neural network (CNN) to classify said shapes based on complexity.
+</p>
                                     <div class="d-inline-flex align-items-start">
                                         <a target="_blank"
-                                           href="https://devpost.com/software/contrastive-self-supervised-image-classification?ref_content=my-projects-tab&ref_feature=my_projects">
-                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
-                                                <span class="btn-inner--visible">DevPost</span>
-                                                <span class="btn-inner--hidden"><i class="fas fa-code"></i></span>
-                                            </button>
-                                        </a>
-                                        <a target="_blank"
-                                           href="https://github.com/Bader-shall-ship-it/CSCI1470-FinalProject">
+                                           href="https://github.com/jfrausto7/genClassBezier2D">
                                             <button type="button" class="btn btn-primary btn-animated btn-animated-x">
                                                 <span class="btn-inner--visible">GitHub</span>
                                                 <span class="btn-inner--hidden"><i class="fab fa-github"></i></span>
@@ -133,9 +128,41 @@
                         </div>
                     </div>
 					
-					
                     <!-- Second two projects -->
-                    <div class="col-md-10 offset-md-1 d-lg-flex">
+					<div class="col-md-10 offset-md-1 d-lg-flex">
+                        <div class="col-lg-6 mb-3">
+                            <div class="card-body py-4 card shadow">
+                                <div class="d-inline-block align-items-start">
+                                    <div class="d-inline-flex align-items-start">
+                                        <img class="project-icon"
+                                             src="./Images/simclr.jpeg" alt="Card image cap"
+                                             class="img-center">
+                                        <h4 style="margin-top: 10px;">Contrastive Self-Supervised Image Classification with SimCLR<br>
+                                            <small>CSCI 1470</small>
+                                        </h4>
+                                    </div>
+                                    <p class="no-bottom"><i>Training an image classifier without using labels by building a model that can generate labels needed for training from the images themselves!</i></p>
+                                    <hr class="project-line">
+                                    <p class="card-text">Implemented a contrastive self-supervision model to learn image representations from unlabelled data and investigate its performance for an image classification downstream task. The overall outlined learning framework is semi-supervised and trained in two stages. First we implemented simCLR to extract image feature representations without using labels. Then, we used a labeled dataset to train a classifier on top of our learned feature backbone for the classification task.</p>
+                                    <div class="d-inline-flex align-items-start">
+                                        <a target="_blank"
+                                           href="https://devpost.com/software/contrastive-self-supervised-image-classification?ref_content=my-projects-tab&ref_feature=my_projects">
+                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                                                <span class="btn-inner--visible">DevPost</span>
+                                                <span class="btn-inner--hidden"><i class="fas fa-code"></i></span>
+                                            </button>
+                                        </a>
+                                        <a target="_blank"
+                                           href="https://github.com/Bader-shall-ship-it/CSCI1470-FinalProject">
+                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                                                <span class="btn-inner--visible">GitHub</span>
+                                                <span class="btn-inner--hidden"><i class="fab fa-github"></i></span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-lg-6 mb-3">
                             <div class="card-body py-4 card shadow">
                                 <div class="d-inline-block align-items-start">
@@ -176,40 +203,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-3">
-                            <div class="card-body py-4 card shadow">
-                                <div class="d-inline-block align-items-start">
-                                    <div class="d-inline-flex align-items-start">
-                                        <img class="project-icon"
-                                             src="./Images/at_icon.png" alt="Card image cap" class="img-center">
-                                        <h4 style="margin-top: 10px;">autoTagger<br>
-                                            <small>Signs.com</small>
-                                        </h4>
-                                    </div>
-                                    <p class="no-bottom"><i> A small script I've built to help reduce tagging time</i></p>
-                                    <hr class="project-line">
-                                    <p class="card-text">This functional program automates and expedites the tagging process for my part-time work. Written in Python, autoTagger integrates Selenium WebDriver APIs to optimize agent tagging with a 25-33% reduction in process duration.</p>
-                                    <div class="d-inline-flex align-items-start">
-                                        <a target="_blank"
-                                           href="https://youtu.be/Lu1hDsMQ3CU">
-                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
-                                                <span class="btn-inner--visible">Demo</span>
-                                                <span class="btn-inner--hidden"><i class="fab fa-youtube"></i></span>
-                                            </button>
-                                        </a>
-                                        <a target="_blank" href="https://github.com/jfrausto7/autoTagger">
-                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
-                                                <span class="btn-inner--visible">GitHub</span>
-                                                <span class="btn-inner--hidden"><i class="fab fa-github"></i></span>
-                                            </button>
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+					</div>
                     <!-- Second row of projects -->
                     <div class="col-md-10 offset-md-1 d-lg-flex">
 						<div class="col-lg-6 mb-3">
@@ -397,6 +391,43 @@ I personally have CelebrityJumble on my laptop set to run 7 times a day automati
                             </div>
                         </div>
                     </div>
+						
+				<!-- Last row of projects -->
+				<div class="col-md-10 offset-md-1 d-lg-flex">
+					<div class="col-lg-6 mb-3">
+                            <div class="card-body py-4 card shadow">
+                                <div class="d-inline-block align-items-start">
+                                    <div class="d-inline-flex align-items-start">
+                                        <img class="project-icon"
+                                             src="./Images/at_icon.png" alt="Card image cap" class="img-center">
+                                        <h4 style="margin-top: 10px;">autoTagger<br>
+                                            <small>Signs.com</small>
+                                        </h4>
+                                    </div>
+                                    <p class="no-bottom"><i> A small script I've built to help reduce tagging time</i></p>
+                                    <hr class="project-line">
+                                    <p class="card-text">This functional program automates and expedites the tagging process for my part-time work. Written in Python, autoTagger integrates Selenium WebDriver APIs to optimize agent tagging with a 25-33% reduction in process duration.</p>
+                                    <div class="d-inline-flex align-items-start">
+                                        <a target="_blank"
+                                           href="https://youtu.be/Lu1hDsMQ3CU">
+                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                                                <span class="btn-inner--visible">Demo</span>
+                                                <span class="btn-inner--hidden"><i class="fab fa-youtube"></i></span>
+                                            </button>
+                                        </a>
+                                        <a target="_blank" href="https://github.com/jfrausto7/autoTagger">
+                                            <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                                                <span class="btn-inner--visible">GitHub</span>
+                                                <span class="btn-inner--hidden"><i class="fab fa-github"></i></span>
+                                            </button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
                         
 
                     <!-- End of projects -->
