@@ -1,2 +1,2 @@
 # jfrausto7.github.io
-Link: https://frausto.tech/
+Link: https://jfrausto.me/
